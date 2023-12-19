@@ -1,0 +1,1616 @@
+@font-face {
+    font-family: "Sylfaen";
+    src: url("../fonts/Sylfaen.ttf");
+    font-style: normal;;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("../fonts/Tahoma.ttf");
+    font-style: normal;;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url("../fonts/Garamond.ttf");
+    font-style: normal;;
+    font-weight: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*-- Boorstrap --*/
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.logo {
+  float: left;
+  margin-top: 5px;
+  width: 180px;
+  z-index: 999999999;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+.btn-right {
+  float: right;
+}
+
+.navbar {
+  background: #05214d;
+  border: 0!important;
+  margin-top: 5px;
+  margin-bottom: 0!important;
+}
+
+.nav-button {
+  display: none;
+  color: #000000;
+}
+
+nav {
+  position: relative;
+  float: left;
+}
+
+nav a {
+  text-align: center;
+  float: left;
+  font-family: "Tahoma";
+  color: #fff;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+  background: #598183;
+}
+
+.navbar .active {
+  background: #686767;
+}
+
+.owl-carousel {
+  position:relative;
+  margin-top: 25px;
+}
+
+.owl-prev, .owl-next {
+  position:absolute;
+}
+
+.owl-prev {
+  left:0;
+  top: 40%;
+  color: #fff!important;
+  font-size: 55px!important;
+}
+.owl-prev:hover {
+  background: none!important;
+  color: #11a8af!important;
+}
+
+.owl-next {
+  right:0;
+  top:40%;
+  color: #fff!important;
+  font-size: 55px!important;
+}
+.owl-next:hover {
+  background: none!important;
+  color: #7ba6a8!important;
+}
+
+#owl-shop .owl-prev {
+  color: #000!important;
+}
+#owl-shop .owl-prev:hover {
+  background: none!important;
+  color: #4f558b!important;
+}
+
+#owl-shop .owl-next {
+  color: #000!important;
+}
+#owl-shop .owl-next:hover {
+  background: none!important;
+  color: #4f558b!important;
+}
+
+
+.bg {
+  background: url("https://i.pinimg.com/564x/94/7c/30/947c30397092e8cb33ab3b8170ed0bba.jpg") center top no-repeat;
+  height: 500px;
+}
+
+.about-block {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  text-align: left;
+  color: #2c2c2c;
+  font-size: 15px;
+  font-family: "Tahoma";
+  text-indent: 20px;
+  font-weight: bold;
+}
+
+
+.ab-text {
+  float: right;
+  margin-top: 10px;
+}
+
+.block-two {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.block-two-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+}
+
+#minifeatures .feature {
+  margin-bottom: 40px;
+}
+
+.col4 {
+  width: 30.25%;
+}
+
+.column {
+  display: block;
+  float: left;
+  margin-left: 15%;
+  width: 250px;
+  height: 450px;
+}
+
+.column-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.column-title {
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 30px;
+  color: #e50071;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.column-text {
+  text-align: center;
+  font-family: "Tahoma";
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+}
+
+.column:first-child {
+  margin-left: 20%;
+}
+
+.column:nth-child(3) {
+  margin-left: 20%;
+}
+
+.column:nth-child(4) {
+  height: 750px;
+}
+
+.column:nth-child(6) {
+  margin-left: 20%;
+  height: 400px;
+}
+
+.column:nth-child(7) {
+  height: 400px;
+}
+
+.column:nth-child(8) {
+  margin-left: 20%;
+  height: 400px;
+}
+
+.column:nth-child(9) {
+  height: 400px;
+}
+
+.column:nth-child(10) {
+  margin-left: 20%;
+  height: 350px;
+}
+
+.column:nth-child(11) {
+  height: 350px;
+}
+
+.block-img {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.block-gallery {
+  background: #0fa7af;
+  border-radius: 10px;
+  height: auto;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#Gallery.block-gallery {
+  background: #951b81;
+}
+
+.block-gallery-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+  padding-top: 50px;
+}
+
+/* Carousel */
+
+.b-carousel  {
+  width: 1000px; /* ширина всього блоку */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+  .h-carousel-wrapper {
+    width: 980px; /* ширина області каруселі */
+    height: 500px;
+    position: relative;
+    overflow: hidden; /* приховуємо вміст, що виходить за рамки основної області*/
+    margin: 0 auto; /* вирівнюємо по центру щодо батьківського блоку */
+  }
+    .h-carousel-items {
+      width: 10000px; /* встановлюємо велику ширину для набору елементів каруселі, щоб все помістилося в неї. */
+      position: relative; /* позиціонуємо блок щодо основної області каруселі*/
+    }
+      .b-carousel-block {
+        float: left; /* вибудовуємо всі елементи каруселі до ряду */
+        width: 100%; /* задаємо ширину кожного елемента */
+        padding: 5px 6px; /* робимо відступи, щоб елементи не зливалися */
+      }
+        .a-carousel-image-link { /* тут чисто оформлення вмісту*/
+          display: block;
+          width: 290px;
+          height: 165px;
+          margin: 0 auto;
+          overflow: hidden;
+          border: 2px solid #fff;
+          margin-top: 15px;
+        }
+  .b-carousel-button-left, .b-carousel-button-right {
+    width: 32px; /* задаємо ширину кнопок */
+    height: 32px; /* задаємо висоту кнопок */
+    position: relative;
+    top: 220px; /* позиціонуємо кнопки */
+    cursor: pointer; /* робимо кнопкам курсор у вигляді "вказівного пальця" */
+  }
+  .b-carousel-button-left {
+    left: -30px;
+    float: left; /* вирівнюємо ліву кнопку по лівому краю */
+    background: url(../images/left-arrow.png); /* картинка з лівою кнопкою */
+  }
+  .b-carousel-button-right {
+    right: -30px;
+    float: right; /* вирівнюємо правую кнопку по правому краю */
+    background: url(../images/right-arrow.png); /* картинка з правою кнопкою */
+  }
+
+
+/* Carousel 2 */
+
+.b-carousel-two {
+  width: 1000px; /* ширина всього блоку */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+  .h-carousel-wrapper-two {
+    width: 980px; /* ширина області каруселі */
+    position: relative;
+    overflow: hidden; /* приховуємо вміст, що виходить за рамки основної області */
+    margin: 0 auto; /* вирівнюємо по центру щодо батьківського блоку */
+  }
+    .h-carousel-items-two {
+      width: 10000px; /* встановлюємо велику ширину для набору елементів каруселі, щоб все помістилося в неї. */
+      position: relative; /* позиціонуємо блок щодо основної області каруселі*/
+    }
+      .b-carousel-block-two {
+        float: left; /* вибудовуємо всі елементи каруселі до ряду */
+        width: 455px; /* задаємо ширину кожного елемента*/
+        padding: 5px 6px; /* робимо відступи, щоб елементи не зливалися */
+        margin-right: 60px;
+      }
+        .a-carousel-image-link-two { /* тут чисто оформлення вмісту */
+          display: block;
+          width: 440px;
+          height: 220px;
+          margin: 0 auto;
+          overflow: hidden;
+          border: 2px solid #fff;
+        }
+  .b-carousel-button-left-two, .b-carousel-button-right-two {
+    width: 32px; /* задаємо ширину кнопок */
+    height: 32px; /* задаємо висоту кнопок */
+    position: relative;
+    top: 140px; /* позиціонуємо кнопки */
+    cursor: pointer; /* робимо кнопкам курсор у вигляді "вказівного пальця" */
+  }
+  .b-carousel-button-left-two {
+    left: -30px;
+    float: left; /* вирівнюємо лівую кнопку по лівому краю */
+    background: url(../images/left-arrow.png); /* картинка з лівою кнопкою */
+  }
+  .b-carousel-button-right-two {
+    right: -30px;
+    float: right; /* вирівнюємо праву кнопку по правому краю */
+    background: url(../images/right-arrow.png); /* картинка з правою кнопкою */
+  }
+
+.video-title {
+    text-align: center;
+    font-family: "Tahoma";
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+.video-title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.video-title a:hover {
+  text-decoration: underline;
+}
+
+  .video-text {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Tahoma";
+  }
+
+.video-text-two {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Tahoma";
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* Carousel 3 */
+
+.b-carousel-three {
+  width: 1000px; /* ширина всього блока */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+  .h-carousel-wrapper-three {
+    width: 980px; /* ширина області каруселі */
+    position: relative;
+    overflow: hidden; /* приховуємо вміст, що виходить за рамки основної області */
+    margin: 0 auto; /* вирівнюємо по центру щодо батьківського блоку */
+  }
+    .h-carousel-items-three {
+      width: 10000px; /* встановлюємо велику ширину для набору елементів каруселі, щоб все помістилося в неї. */
+      position: relative; /* позиціонуємо блок щодо основної області каруселі*/
+    }
+      .b-carousel-block-three {
+        float: left; /* вибудовуємо всі елементи каруселі до ряду */
+        width: 326px; /* задаємо ширину кожного елемента */
+        padding: 5px 6px; /* робимо відступи, щоб елементи не зливалися */
+      }
+        .a-carousel-image-link-three { /* тут чисто оформлення вмісту */
+          display: block;
+          height: 223px;
+          overflow: hidden;
+          border: 2px solid #fff;
+        }
+  .b-carousel-button-left-three, .b-carousel-button-right-three {
+    width: 32px; /* задаємо ширину кнопок */
+    height: 32px; /* задаємо висоту кнопок */
+    position: relative;
+    top: 120px; /* позиціонуємо кнопки */
+    cursor: pointer; /* робимо кнопкам курсор у вигляді "пальця" */
+  }
+  .b-carousel-button-left-three {
+    left: -30px;
+    float: left; /* вирівнюємо ліву кнопку по лівому краю*/
+    background: url(../images/left-arrow.png); /* картинка з лівою кнопкою */
+  }
+  .b-carousel-button-right-three {
+    right: -30px;
+    float: right; /* вирівнюємо праву кнопку по правому краю */
+    background: url(../images/right-arrow.png); /* картинка з правою кнопкою */
+  }
+
+/* Carousel 4 */
+
+.b-carousel-four {
+  width: 1000px; /* ширина всього блоку */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+  .h-carousel-wrapper-four {
+    width: 980px; /* ширина області каруселі */
+    position: relative;
+    overflow: hidden; /* приховуємо вміст, що виходить за рамки основної області */
+    margin: 0 auto; /* вирівнюємо по центру щодо батьківського блоку */
+  }
+    .h-carousel-items-four {
+      width: 10000px; /* встановлюємо велику ширину для набору елементів каруселі, щоб все помістилося в неї. */
+      position: relative; /* позиціонуємо блок щодо основної області каруселі */
+    }
+      .b-carousel-block-four {
+        float: left; /* вибудовуємо всі елементи каруселі до ряду */
+        width: 326px; /* задаємо ширину кожного елемента */
+        padding: 5px 6px; /* робимо оступи, щоб елементи не зливалися */
+      }
+        .a-carousel-image-link-four { /* тут чисто оформлення вмісту */
+          display: block;
+          width: 250px;
+          height: 173px;
+          margin: 0 auto;
+          overflow: hidden;
+          border: 1px solid #b5c4ca;
+        }
+  .b-carousel-button-left-four, .b-carousel-button-right-four {
+    width: 32px; /* задаємо ширину кнопок */
+    height: 32px; /* задаємо висоту кнопок */
+    position: relative;
+    top: 140px; /* позиціонуємо кнопки */
+    cursor: pointer; /* робимо кнопкам курсор у вигляді "пальця" */
+  }
+  .b-carousel-button-left-four {
+    left: -30px;
+    float: left; /* вирівнюємо ліву кнопку по лівому краю */
+    background: url(../images/arrow-left.png); /* картинка з лівою кнопкою */
+  }
+  .b-carousel-button-right-four {
+    right: -30px;
+    float: right; /* вирівнюємо праву кнопку по правому краю */
+    background: url(../images/arrow-right.png); /* картинка з правою кнопкою */
+  }
+
+/* New carousel */
+
+#wrapper {
+  width: 960px;
+  margin: 100px auto 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  3. CAROUSEL
+/*-----------------------------------------------------------------------------------*/
+
+#wrapper .d-carousel ul li {
+  background: none;
+  background-color: #FFF;
+  padding: 15px;
+  width: 280px;
+  height: 603px;
+}
+
+.jcarousel-direction-rtl {
+  direction: rtl;
+}
+
+.d-carousel h4 {
+  margin: 5px 0 5px 0;
+}
+
+.d-carousel .jcarousel-container {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.d-carousel .jcarousel-item {
+  width: 280px;
+  height: 603px;
+}
+
+.d-carousel .jcarousel-container-horizontal {
+  width: 960px;
+  padding: 0 45px;
+}
+
+.d-carousel .jcarousel-item-horizontal {
+  margin-left: 3px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 11px;
+}
+
+.d-carousel .jcarousel-next-horizontal {
+  position: absolute;
+  top: 149px;
+  right: 0;
+  margin-right: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: transparent url(../images/arrow-right.png) no-repeat top right;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal {
+  left: 5px;
+  right: auto;
+  background-image: url(../images/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-next-horizontal:hover {
+  background-position: bottom right;
+}
+
+.d-carousel .jcarousel-prev-horizontal {
+  position: absolute;
+  top: 149px;
+  left: 0;
+  margin-left: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: transparent url(../images/arrow-left.png) no-repeat top left;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+  left: auto;
+  right: 5px;
+  background-image: url(../images/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-prev-horizontal:hover {
+  background-position: bottom left;
+}
+
+/* End NC*/
+
+  .shop-title {
+    text-align: center;
+    font-family: "Tahoma";
+    font-weight: bold;
+    color: #013447;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .shop-text {
+    text-align: center;
+    color: #262626;
+    font-size: 15px;
+    font-family: "Tahoma";
+  }
+
+  .price {
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: #f78ac0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+/* Team block */
+
+.team {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.team-block-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+  margin-bottom: 10px;
+}
+
+.more-team {
+  float: right;
+  width: 300px;
+  margin-top: 100px;
+  margin-right: 160px;
+}
+
+.more-team:hover {
+  cursor: pointer;
+}
+
+.more-team-spoiler {
+  display: none;
+  background: #fff;
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  float: left;
+}
+
+#minifeature .features {
+  margin-bottom: 40px;
+}
+
+.col45 {
+  width: 30.25%;
+}
+
+.columns {
+  display: block;
+  float: left;
+  margin-left: 10%;
+  max-width: 400px;
+}
+
+.columns-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.columns-text {
+  text-align: center;
+  font-family: "Tahoma";
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+}
+
+body .owl-theme .owl-dots {
+  display: none;
+}
+
+/* Shop block */
+
+.shop {
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.shop-block-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+  margin-bottom: 10px;
+}
+
+/* Price block */
+
+.price-block {
+  background: #0fa7af;
+  float: left;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.price-title {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Garamond";
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.list-one {
+  float: left;
+  margin-left: 70px;
+  width: 280px;
+  margin-top: 50px;
+}
+
+.list-one-title {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.list-one-text {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  margin-top: 20px;
+}
+
+.list-two {
+  float: right;
+  margin-right: 70px;
+  width: 280px;
+  margin-top: 50px;
+}
+
+.list-two-title {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.list-two-text {
+  margin-top: 20px;
+}
+
+.list-two-text li {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  list-style-type: circle;
+}
+
+.list-three {
+  float: left;
+  width: 500px;
+  color: #fff;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.list-three #ordernow-btn {
+  margin-top: 10px;
+  margin-right: 0;
+}
+
+.list-three-title {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.list-three-text li {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+  list-style-type: circle;  
+}
+
+.text-price-right {
+  float: right;
+  width: 270px;
+  margin-top: 230px;
+  text-align: center;
+  margin-right: 20px;
+  color: #0fa7af;
+  font-size: 16px;
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+
+.text-price-left {
+  float: left;
+  width: 400px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 200px;
+  color: #0fa7af;
+  font-size: 20px;
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+
+.price-block-two {
+  float: right;
+  background: #e50071;
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  padding: 20px;
+  margin-top: -150px;
+  margin-bottom: 150px;
+}
+
+.price-block-two-title {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Garamond";
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.price-block-two-text {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Tahoma";
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.price-btn-block-two {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 30px;
+  color: #fff;
+  width: 250px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.price-btn-block-two:hover {
+  background: #fff;
+  color: #e50071;
+  cursor: pointer;
+}
+
+.price-btn-block-two a {
+  color: #fff;
+  text-decoration: none;
+}
+.price-btn-block-two a:hover {
+  color: #e50071;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.topnav a:hover {
+  background-color: #11a8af;
+}
+
+.topnav .active {
+  background-color: #686767;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* Maps block */
+
+.maps-block {
+  height: 700px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.maps-block a {
+  text-decoration: none;
+  color: #0fa7af;
+}
+
+.maps-block-title {
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 60;
+  margin-bottom: 10px;
+}
+
+.one-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Garamond";
+  color: #0fa7af;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  border: 2px solid #fff;
+  padding: 10px;
+  width: 400px;
+}
+
+.one-link:hover {
+  border: 2px solid #0fa7af;
+  border-radius: 10px;
+}
+
+.bar {
+  display: none;
+  position: absolute;
+  width: 1140px;
+  height: 455px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 170px;
+}
+
+#div1 {
+  display: block;
+}
+
+.one-link-spoiler {
+  display: none;
+  position: absolute;
+  width: 1140px;
+  height: 645px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 170px;
+  z-index: 999999999;
+}
+
+.two-link {
+  float: left;
+  margin-top: 20px;
+  margin-left: 130px;
+  color: #0fa7af;
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  border: 2px solid #fff;
+  padding: 10px;
+  width: 400px;
+}
+
+.two-link:hover {
+  border: 2px solid #0fa7af;
+  border-radius: 10px;
+}
+
+.two-link-spoiler {
+  display: none;
+  position: absolute;
+  width: 1140px;
+  height: 645px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 170px;
+  z-index: 999999999;
+}
+
+.three-link {
+  float: right;
+  margin-top: 20px;
+  margin-right: 120px;
+  color: #0fa7af;
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 30px;
+  font-weight: bold;
+  width: 400px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+  border: 2px solid #fff;
+}
+
+.three-link:hover {
+  border: 2px solid #0fa7af;
+  border-radius: 10px;
+}
+
+.three-link-spoiler {
+  display: none;
+  position: absolute;
+  width: 1140px;
+  height: 645px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 170px;
+  z-index: 999999999;
+}
+
+.map-center {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* Footer */
+
+.footer {
+  background: #0fa7af;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.socials {
+  float: left;
+  margin-left: 50px;
+  color: #fff;
+  font-family: "Tahoma";
+  font-size: 16px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.soc-icons {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.soc-icons a {
+  text-decoration: none;
+}
+
+.soc-icons img {
+  margin-right: 40px;
+}
+
+.subscribe {
+  float: left;
+  margin-left: 140px;
+  margin-top: 70px;
+}
+
+.subscribe-title {
+  color: #fff;
+  font-family: "Tahoma";
+  font-size: 16px;
+  text-align: center;
+}
+
+.subscribe input {
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: "Tahoma";
+  width: 300px;
+  border: none;
+  height: 33px;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+.btn-subscribe {
+  background: #e50071;
+  color: #fff;
+  font-family: "Tahoma";
+  font-size: 14px;
+  width: 300px;
+  margin-top: 10px;
+  height: 33px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.btn-subscribe a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info {
+  float: right;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+
+.info-title {
+  color: #fff;
+  font-family: "Tahoma";
+  font-size: 16px;
+  text-align: center;
+}
+
+.info-text {
+  text-align: center;
+  font-family: "Tahoma";
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+/* Page Starway */
+
+.img-blocks {
+  height: auto;
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.img-block-one {
+  background: url("../images/starway/img1.png") no-repeat center top;
+  background-size: cover;
+  float: left;
+  width: 390px;
+  height: 260px;
+  margin-left: 160px;
+    margin-top: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.img-block-one.img5 {
+  background: url("../images/starway/img5.png") no-repeat center top;
+  background-size: cover;
+}
+.img-block-two.img6 {
+  background: url("../images/starway/img6.png") no-repeat center top;
+  background-size: cover;
+}
+.img-block-three.img7 {
+  background: url("../images/starway/img7.png") no-repeat center top;
+  background-size: cover;
+}
+.img-block-four.img8 {
+  background: url("../images/starway/img8.png") no-repeat center top;
+  background-size: cover;
+}
+
+.img-block-one:hover .img-block-hov {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-block-hov {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  position:absolute;
+  width: 390px;
+  height: 260px;
+  background-color: rgba(0, 171, 147, 0.7);
+  transition: all 0.3s ease 0s;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Tahoma";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Img block two */
+
+.img-block-two {
+  background: url("../images/starway/img2.png") no-repeat center top;
+  background-size: cover;
+  float: right;
+  width: 410px;
+  height: 260px;
+  margin-right: 170px;
+    margin-top: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.img-block-two:hover .img-block-hov-two {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-block-hov-two {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  position:absolute;
+  width: 410px;
+  height: 260px;
+  background-color: rgba(0, 171, 147, 0.7);
+  transition: all 0.3s ease 0s;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Tahoma";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Img block three */
+
+.img-block-three {
+  background: url("../images/starway/img3.png") no-repeat center top;
+  background-size: cover;
+  float: left;
+  width: 450px;
+  height: 260px;
+  margin-left: 160px;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+}
+
+.img-block-three:hover .img-block-hov-three {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-block-hov-three {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  position:absolute;
+  width: 450px;
+  height: 260px;
+  background-color: rgba(0, 171, 147, 0.7);
+  transition: all 0.3s ease 0s;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Tahoma";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Img block four */
+
+.img-block-four {
+  background: url("../images/starway/img4.png") no-repeat center top;
+  background-size: cover;
+  float: right;
+  width: 350px;
+  height: 260px;
+  margin-right: 170px;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+}
+
+.img-block-four:hover .img-block-hov-four {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-block-hov-four {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  position:absolute;
+  width: 350px;
+  height: 260px;
+  background-color: rgba(0, 171, 147, 0.7);
+  transition: all 0.3s ease 0s;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Tahoma";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Starway */
+
+.starway-block {
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.starway-block-title {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Garamond";
+  color: #013447;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.starway-one {
+  background: url("../images/starway/st1.png");
+}
+
+.starway-one-text-block {
+  background: transparent;
+  height: auto;
+  margin-top: 180px;
+  transform: rotate(-2deg);
+}
+
+.st-img {
+  float: left;
+  width: 440px;
+  height: auto;
+  margin-left: 100px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.st-text {
+  width: 480px;
+  float: right;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  color: #151a51;
+  font-family: "Tahoma";
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.st-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #151a51;
+  font-size: 22px;
+}
+
+/* ST2 */
+
+.starway-two {
+  background: url("../images/starway/st2.png");
+}
+
+.starway-two-text-block {
+  background: transparent;
+  height: auto;
+  margin-top: 100px;
+  transform: rotate(2deg);
+}
+
+.st-img-two {
+  float: right;
+  width: 360px;
+  height: auto;
+  margin-right: 100px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.st-text-two {
+  width: 550px;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  color: #151a51;
+  font-family: "Tahoma";
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+/* ST3 */
+
+.starway-three {
+  background: url("../images/starway/st3.png");
+}
+
+.starway-three-text-block {
+  background: transparent;
+  height: auto;
+  margin-top: 140px;
+  transform: rotate(-2deg);
+}
+
+.st-img-three {
+  float: left;
+  width: 430px;
+  height: auto;
+  margin-left: 55px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.st-text-three {
+  width: 590px;
+  float: right;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  color: #151a51;
+  font-family: "Tahoma";
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.st-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #151a51;
+  font-size: 22px;
+}
+
+/* ST4 */
+
+.starway-four {
+  background: url("../images/starway/st4.png");
+}
+
+.starway-four-text-block {
+  background: transparent;
+  height: auto;
+  margin-top:90px;
+  transform: rotate(2deg);
+}
+
+.st-img-four {
+  float: right;
+  width: 300px;
+  height: auto;
+  margin-right: 160px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.st-text-four {
+  width: 450px;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  color: #151a51;
+  font-family: "Tahoma";
+  font-size: 16px;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  border: none;
+  text-indent: 100%;
+  background: url("../images/totop.png") no-repeat 0px 0px;
+}
